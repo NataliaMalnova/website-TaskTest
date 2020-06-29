@@ -1,0 +1,119 @@
+.rating{
+    margin-top: 60px;
+}
+
+.rating__box{
+    height: 220px;
+    margin-bottom: 50px;
+    @media (max-width: 1366px){
+        height: 180px;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 1200px){
+        height: 160px;
+    }
+    &-img{
+        width: 305px;
+        height: 100%;
+        display: flex;
+        flex-shrink: 0;
+        @media (max-width: 1366px){
+            width: 220px;
+        }
+        @media (max-width: 1200px){
+            width: 180px;
+        }
+        @media (max-width: 991px){
+            width: 150px;
+        }
+        @media screen and (max-width: 575px){
+            width: 125px;
+        }
+    }
+    &-img1{
+        background: url("../img/best1.png") no-repeat center;
+        background-size: cover;
+    }
+    &-img2{
+        background: url("../img/best2.png") no-repeat center;
+        background-size: cover;
+    }
+    &-img3{
+        background: url("../img/best3.png") no-repeat center;
+        background-size: cover;
+    }
+    &-img4{
+        background: url("../img/best4.png") no-repeat center;
+        background-size: cover;
+    }
+    &-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;  
+        padding-right: 25px;
+        padding-top: 30px; 
+        @media (max-width: 1366px){
+            padding-top: 25px; 
+            padding-left: 15px;  
+            padding-right: 20px;
+        }
+        @media (max-width: 991px){
+            padding-top: 10px; 
+            padding-left: 10px;  
+            padding-right: 10px;
+        }
+    }
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-proc{
+        border-radius: 8px;
+        background-color: rgb(121, 197, 224);
+        width: 44px;
+        height: 20px;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        @media (max-width: 1366px){
+            width: 40px;
+            height: 18px;    
+        }
+        @media (max-width: 991px){
+            width: 30px;
+            height: 15px;    
+        }
+    }
+    p{
+        font-size: 12px;
+        @media (max-width: 1366px){
+            font-size: 11px;
+        }
+    }
+    h3{
+        margin-top: 30px;
+        @media (max-width: 1200px){
+            margin-top: 25px;
+        }
+        @media (max-width: 991px){
+            margin-top: 15px;  
+        }
+    }
+    &-textDescribtion{
+        position: absolute;
+        bottom: 30px;
+        color: rgb(115, 199, 163);
+        @media (max-width: 1366px){
+            bottom: 20px;   
+        }
+        @media (max-width: 1200px){
+            bottom: 15px;   
+        }
+        @media (max-width: 991px){
+            bottom: 10px;   
+        }
+    }
+}
